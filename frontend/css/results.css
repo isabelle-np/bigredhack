@@ -60,6 +60,8 @@ main {
 .disposable {
     font-size: 4rem;
     font-weight: 700;
+    color: #18AF4D;
+    margin-bottom: 2rem;
 }
 
 h3 {
@@ -79,4 +81,30 @@ h3 {
     text-align: center;
     width: 400px;
     margin: auto;
+}
+
+label.compare {
+    margin-right: 1rem;
+}
+
+.highlight {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.average {
+    text-align: center;
+}
+
+tr.average {
+    margin-bottom: 3rem;
+}
+
+.expenses p {
+    font-weight: 700;
+    text-align: right;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;    
 }
