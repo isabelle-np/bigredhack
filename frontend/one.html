@@ -5,6 +5,7 @@
 	    <title>Reloc8 Form</title>
         <link rel="stylesheet" media="screen" href="css/style.css">
         <link rel="stylesheet" media="screen" href="css/results.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta name="author" content="Isabelle Nguyen-Phuoc">
 	    <meta name="description" content="We calculate your lifestyle in different cities, showing you how far your salary can go.">
@@ -19,11 +20,11 @@
                 <button type="submit" class="secondary-cta">Compare</button>
         </nav>
         <h1>Your Personal Habits</h1>
-        <main class="habits-card">
-        <table>
+        <main>
+        <table class="main">
             <tbody>
                 <tr>
-                    <td>
+                    <td class="habits-card">
                 <div>
                     <h2>Houston, TX</h2>
                     <p>Your monthly disposable income:</p>
@@ -60,13 +61,34 @@
                             </tr>
                         </tbody>
                     </table>
+                    <h3 style="text-align: left;">Average Prices</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><i class="fas fa-beer fa-2x"></i>
+                                    <p>Beer</p></td>
+                                <td><i class="fas fa-gas-pump fa-2x"></i>
+                                    <p>Gasoline</p></td>
+                                <td><i class="fas fa-ticket-alt fa-2x"></i>
+                                    <p>Movie Ticket</p></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-utensils fa-2x"></i>
+                                    <p>Take Out</p></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr></tr>
+                        </tbody>
+                    </table>
+                    
                 </div>
             </div>
             </td>
             <td>
-                <form>
+                <form class="compare">
                 <h3>Compare with Another City</h3>
-                <input type="search">
+                <input type="search"><br>
                 <button type="submit">Compare</button>
                 </form>
             </div>

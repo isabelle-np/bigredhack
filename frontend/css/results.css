@@ -11,6 +11,7 @@ h1 {
 
 .nav-form:first-child {
     text-transform: uppercase;
+    right: 30px;
 }
 
 .secondary-cta {
@@ -63,4 +64,19 @@ main {
 
 h3 {
     font-size: 1.5rem;
+}
+
+.habits-card{
+    border-right: 1px solid black;
+    align: center;
+}
+
+.main {
+    width: 100%;
+}
+
+.compare {
+    text-align: center;
+    width: 400px;
+    margin: auto;
 }
