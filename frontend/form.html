@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <title>Reloc8 Form</title>
+        <link rel="stylesheet" media="screen" href="css/style.css">
+        <link rel="stylesheet" media="screen" href="css/form.css">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="author" content="Isabelle Nguyen-Phuoc">
+	    <meta name="description" content="We calculate your lifestyle in different cities, showing you how far your salary can go.">
+	    <meta name="robots" content="all">
+    </head>
+    <body>
+        <nav class="solid-nav">
+            <a href="index.html"><img src="assets/logo.svg" alt="Reloc8 logo" class="logo"></a>
+        </nav>
+        <h1>Your Personal Habits</h1> 
+        <main>
+            <form>
+                <label>Your Salary</label><br>
+                    <input type="radio" name="salary" value="annual" checked>Annual
+                    <input type="radio" name="salary" value="hourly">Hourly<br>
+                    <input type="number" placeholder="50000"><br>
+                <label>Housing Preference</label><br>
+                    <input type="radio" name="housing" value="studio" checked>Studio/Shared<br>
+                    <input type="radio" name="housing" value="one-br">1 Bedroom<br>
+                    <input type="radio" name="housing" value="two-br">2 Bedroom<br>
+                    <input type="radio" name="housing" value="3-br">3 Bedroom<br>
+                <label>Do you plan to drive?</label><br>
+                    <input type="radio" name="drive" value="yes" checked>Yes<br>
+                    <input type="radio" name="drive" value="no">No<br>
+                <label>How Many Times Do You Eat Out in a Week</label><br>
+                    <input type="number" placeholder="4" max="14"><br>
+                <label>How Much Do You Spend on Entertainment</label><br>
+                    <input type="radio" name="entertainment" value="minimal" checked>Minimal<br>
+                    <input type="radio" name="entertainment" value="average">Average<br>
+                    <input type="radio" name="entertainment" value="high">High<br>
+                <button type="submit">Submit</button>
+            </form>  
+        </main>
+    </body>
