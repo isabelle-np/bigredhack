@@ -5,6 +5,7 @@
 	    <title>Reloc8 Form</title>
         <link rel="stylesheet" media="screen" href="css/style.css">
         <link rel="stylesheet" media="screen" href="css/results.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta name="author" content="Isabelle Nguyen-Phuoc">
 	    <meta name="description" content="We calculate your lifestyle in different cities, showing you how far your salary can go.">
@@ -13,31 +14,181 @@
     <body>
         <nav class="solid-nav">
             <a href="index.html"><img src="assets/logo.svg" alt="Reloc8 logo" class="logo"></a>
+            <form class="nav-form">
+                <label class="compare">Compare Cities</label>
+                <input type="search" class="nav-search" placeholder="Enter City"> <span>&</span> <input type="search" class="nav-search" placeholder="Enter City">
+                <button type="submit" class="secondary-cta">Compare</button>
         </nav>
-        <h1>Your Personal Habits</h1> 
+        <h1>Your Relocation Breakdown</h1>
         <main>
-            <form>
-                <h2>Salary</h2>
-                    <input type="radio" name="salary" value="annual" checked>Annual
-                    <input type="radio" name="salary" value="hourly">Hourly<br>
-                    <label>Please enter in your salary</label><br>
-                    <input type="number" placeholder="50000"><br>
-                <h2>Housing Preference</h2><br>
-                    <input type="radio" name="housing" value="studio" checked>Studio/Shared<br>
-                    <input type="radio" name="housing" value="one-br">1 Bedroom<br>
-                    <input type="radio" name="housing" value="two-br">2 Bedroom<br>
-                    <input type="radio" name="housing" value="3-br">3 Bedroom<br>
-                <label>Do you plan to drive?</label><br>
-                    <input type="radio" name="drive" value="yes" checked>Yes<br>
-                    <input type="radio" name="drive" value="no">No<br>
-                <label>How Many Times Do You Eat Out in a Week</label><br>
-                    <input type="number" placeholder="4" max="14"><br>
-                <label>How Much Do You Spend on Entertainment</label><br>
-                    <input type="radio" name="entertainment" value="none" >None<br>
-                    <input type="radio" name="entertainment" value="low" checked>Low<br>
-                    <input type="radio" name="entertainment" value="average">Average<br>
-                    <input type="radio" name="entertainment" value="high">High<br>
-                <button type="submit">Submit</button>
-            </form>  
-        </main>
+        <table class="main">
+            <tbody>
+                <tr>
+                    <td class="habits-card" style="text-align: center;">
+                <div>
+                    <h2>Houston, TX</h2>
+                    <p>Your monthly disposable income:</p>
+                    <p class="disposable">$2100</p>
+                </div>
+                
+                <div class="breakdown">
+                    <h4>Salary Breakdown</h4>
+                    <p>With a salary of $50,000, your money will go to*</p>
+                    <table style="margin: auto;" class="expenses">
+                        <tbody>
+                            <tr>
+                                <td><p>Taxes</p></td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td><p>Rent</p></td>
+                                <td>2000</td>
+                            </tr>
+                            <tr>
+                                <td><p>Utilities</p></td>
+                                <td>200</td>
+                            </tr>
+                            <tr>
+                                <td><p>Food</p></td>
+                                <td>400</td>
+                            </tr>
+                            <tr>
+                                <td><p>Entertainment</p></td>
+                                <td>200</td>
+                            </tr>
+                            <tr>
+                                <td><p>Transportation</p></td>
+                                <td>200</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="disclaimer">*This estimate is based on current prices</p>
+                </div>
+                    <div class="average-prices">
+                    <h4>Average Prices</h4>
+                    <table class="average" style="margin: auto;">
+                        <tbody>
+                            <tr>
+                                <td><i class="fas fa-bed fa-2x" style="color:#db770b"></i></i>
+                                    <p class="highlight">1 Bedroom</p>
+                                    <p>$1500</p>
+                                </td>
+                                    
+                                <td><i class="fas fa-gas-pump fa-2x" style="color:#db770b"></i>
+                                    <p class="highlight">Gasoline</p>
+                                    <p>$3.49/gl</p>
+                                </td>
+                                    
+                                <td><i class="fas fa-car fa-2x" style="color:#db770b"></i>
+                                    <p class="highlight">Parking</p>
+                                    <p>$25/hr</p>
+                                </td>
+                            </tr>
+                            <tr class="spaceUnder">
+                                <td><i class="fas fa-utensils fa-2x" style="color:#db770b"></i>
+                                    <p class="highlight">$$ Restaurant</p>
+                                    <p>$25</p>
+                                </td>
+                                <td><i class="fas fa-coffee fa-2x" style="color:#db770b"></i></i>
+                                    <p class="highlight">Cappuccino</p>
+                                    <p>$3.99</p>
+                                </td>
+                                <td><i class="fas fa-apple-alt fa-2x" style="color: #db770b"></i></i>
+                                    <p class="highlight">Apple</p>
+                                    <p>$1.99/lb</p>
+                                </td>
+                            </tr>
+                            <tr></tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <h4>Housing Market</h4>
+                    <iframe src="https://www.realtor.com/welcome/housing-widget/" width="280" height="600" frameborder="0"></iframe>
+                </div>
+            </div>
+            </td>
+            <td class="habits-card" style="text-align: center;">
+                    <div>
+                        <h2>Houston, TX</h2>
+                        <p>Your monthly disposable income:</p>
+                        <p class="disposable">$2100</p>
+                    </div>
+                    
+                    <div class="breakdown">
+                        <h4>Salary Breakdown</h4>
+                        <p>With a salary of $50,000, your money will go to*</p>
+                        <table style="margin: auto;" class="expenses">
+                            <tbody>
+                                <tr>
+                                    <td><p>Taxes</p></td>
+                                    <td>1500</td>
+                                </tr>
+                                <tr>
+                                    <td><p>Rent</p></td>
+                                    <td>2000</td>
+                                </tr>
+                                <tr>
+                                    <td><p>Utilities</p></td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td><p>Food</p></td>
+                                    <td>400</td>
+                                </tr>
+                                <tr>
+                                    <td><p>Entertainment</p></td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td><p>Transportation</p></td>
+                                    <td>200</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="disclaimer">*This estimate is based on current prices</p>
+                    </div>
+                        <div class="average-prices">
+                        <h4>Average Prices</h4>
+                        <table class="average" style="margin: auto;">
+                            <tbody>
+                                <tr>
+                                    <td><i class="fas fa-bed fa-2x" style="color:#db770b"></i></i>
+                                        <p class="highlight">1 Bedroom</p>
+                                        <p>$1500</p>
+                                    </td>
+                                        
+                                    <td><i class="fas fa-gas-pump fa-2x" style="color:#db770b"></i>
+                                        <p class="highlight">Gasoline</p>
+                                        <p>$3.49/gl</p>
+                                    </td>
+                                        
+                                    <td><i class="fas fa-car fa-2x" style="color:#db770b"></i>
+                                        <p class="highlight">Parking</p>
+                                        <p>$25/hr</p>
+                                    </td>
+                                </tr>
+                                <tr class="spaceUnder">
+                                    <td><i class="fas fa-utensils fa-2x" style="color:#db770b"></i>
+                                        <p class="highlight">$$ Restaurant</p>
+                                        <p>$25</p>
+                                    </td>
+                                    <td><i class="fas fa-coffee fa-2x" style="color:#db770b"></i></i>
+                                        <p class="highlight">Cappuccino</p>
+                                        <p>$3.99</p>
+                                    </td>
+                                    <td><i class="fas fa-apple-alt fa-2x" style="color: #db770b"></i></i>
+                                        <p class="highlight">Apple</p>
+                                        <p>$1.99/lb</p>
+                                    </td>
+                                </tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        <h4>Housing Market</h4>
+                    <iframe src="https://www.realtor.com/welcome/housing-widget/" width="280" height="600" frameborder="0"></iframe>
+                    </div>
+                </div>
+                </td>
+        </main> 
     </body>

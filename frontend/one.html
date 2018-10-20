@@ -19,7 +19,7 @@
                 <input type="search" class="nav-search" placeholder="Enter City"> <span>&</span> <input type="search" class="nav-search" placeholder="Enter City">
                 <button type="submit" class="secondary-cta">Compare</button>
         </nav>
-        <h1>Your Personal Habits</h1>
+        <h1>Your Relocation Breakdown</h1>
         <main>
         <table class="main">
             <tbody>
@@ -31,8 +31,9 @@
                     <p class="disposable">$2100</p>
                 </div>
                 
-                <div>
-                    <p>With a salary of $50,000, your money will go to</p>
+                <div class="breakdown">
+                    <h4>Salary Breakdown</h4>
+                    <p>With a salary of $50,000, your money will go to*</p>
                     <table style="margin: auto;" class="expenses">
                         <tbody>
                             <tr>
@@ -61,35 +62,38 @@
                             </tr>
                         </tbody>
                     </table>
-                    <h3>Average Prices</h3>
+                    <p class="disclaimer">*This estimate is based on current prices</p>
+                </div>
+                    <div class="average-prices">
+                    <h4>Average Prices</h4>
                     <table class="average" style="margin: auto;">
                         <tbody>
                             <tr>
-                                <td><i class="fas fa-bed fa-2x"></i></i>
+                                <td><i class="fas fa-bed fa-2x" style="color:#db770b"></i></i>
                                     <p class="highlight">1 Bedroom</p>
                                     <p>$1500</p>
                                 </td>
                                     
-                                <td><i class="fas fa-gas-pump fa-2x"></i>
+                                <td><i class="fas fa-gas-pump fa-2x" style="color:#db770b"></i>
                                     <p class="highlight">Gasoline</p>
                                     <p>$3.49/gl</p>
                                 </td>
                                     
-                                <td><i class="fas fa-car fa-2x"></i>
+                                <td><i class="fas fa-car fa-2x" style="color:#db770b"></i>
                                     <p class="highlight">Parking</p>
                                     <p>$25/hr</p>
                                 </td>
                             </tr>
-                            <tr>
-                                <td><i class="fas fa-utensils fa-2x"></i>
+                            <tr class="spaceUnder">
+                                <td><i class="fas fa-utensils fa-2x" style="color:#db770b"></i>
                                     <p class="highlight">$$ Restaurant</p>
                                     <p>$25</p>
                                 </td>
-                                <td><i class="fas fa-coffee fa-2x"></i></i>
+                                <td><i class="fas fa-coffee fa-2x" style="color:#db770b"></i></i>
                                     <p class="highlight">Cappuccino</p>
                                     <p>$3.99</p>
                                 </td>
-                                <td><i class="fas fa-apple-alt fa-2x"></i></i>
+                                <td><i class="fas fa-apple-alt fa-2x" style="color: #db770b"></i></i>
                                     <p class="highlight">Apple</p>
                                     <p>$1.99/lb</p>
                                 </td>
@@ -97,16 +101,20 @@
                             <tr></tr>
                         </tbody>
                     </table>
-                    
+                    </div>
+                    <h4>Housing Market</h4>
+                    <iframe src="https://www.realtor.com/welcome/housing-widget/?search=Houston, TX" width="280" height="600" frameborder="0"></iframe>
                 </div>
             </div>
             </td>
-            <td>
+            <td valign="top" style="text-align: center;">
+                <div class="comparison">
                 <form class="compare">
-                <h3>Compare with Another City</h3>
-                <input type="search"><br>
-                <button type="submit">Compare</button>
+                <h3>Compare with another city</h3>
+                <input type="search" placeholder="Enter City Name"><br>
+                <button type="submit" class="primary-cta">Compare</button>
                 </form>
+                </div>
             </div>
             </td>
         </main> 
