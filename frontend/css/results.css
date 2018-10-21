@@ -1,3 +1,6 @@
+body {
+    background: linear-gradient(270deg, #3ca55c, #b5ac49);
+}
 
 h1 {
     text-align: center;
@@ -5,9 +8,12 @@ h1 {
     text-transform: uppercase;
     font-size: 1.5rem;
     letter-spacing: 2.5px;
-    color: rgba(190, 190, 190, 0.733);
+    color: #fff;
 }
 
+h2 {
+    margin-top: 1.5rem;
+}
 h2, h3, h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -25,7 +31,7 @@ h2, h3, h4 {
 
 .secondary-cta {
     color:#fff;
-    background: #18AF4D;
+    background: #fd8a10;
     border-radius: 3px;
     font-size: 12px;
     padding: 0.3rem 0.75rem;
@@ -38,7 +44,7 @@ h2, h3, h4 {
 }
 
 .secondary-cta:hover {
-    background-color:rgb(20, 145, 64);
+    background-color:#db770b;
     color: white;
 }
 
@@ -77,9 +83,9 @@ main {
 }
 
 .disposable {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    color: #18AF4D;
+    color: #fd8a10;
     margin: auto;
     border-bottom: 1px solid rgba(31,53,78,0.11);
     width: 350px;
@@ -100,6 +106,8 @@ h3 {
 
 .main {
     width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .compare {
@@ -189,6 +197,7 @@ h4 {
 
 .comparison h3 {
     margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
 }
 
 .comparison {
@@ -202,7 +211,9 @@ h4 {
 }
 
 .solid-nav {
-    background-color: #333;
 }
 
-
+button > a {
+    text-decoration: none;
+    color: inherit;
+}
