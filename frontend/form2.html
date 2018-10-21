@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <title>Reloc8 Form</title>
+        <link rel="stylesheet" media="screen" href="css/style.css">
+        <link rel="stylesheet" media="screen" href="css/form.css">
+        <link rel="stylesheet" href="netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="author" content="Isabelle Nguyen-Phuoc">
+	    <meta name="description" content="We calculate your lifestyle in different cities, showing you how far your salary can go.">
+        <meta name="robots" content="all">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+            <a href="index.html"><img src="assets/logowhite.svg" alt="Reloc8 logo" class="logo"></a>
+        <main>
+                <h1>Your Details</h1>
+                <p>Please fill out your details so we can calculate an accurate report for you.</p>
+                <div class="container slider-one-active">
+                        <div class="steps">
+                          <div class="step step-one">
+                            <div class="liner"></div>
+                            <span>Salary</span>
+                          </div>
+                          <div class="step step-two">
+                            <div class="liner"></div>
+                            <span>Housing</span>
+                          </div>
+                          <div class="step step-three">
+                            <div class="liner"></div>
+                            <span>Transportation</span>
+                          </div>
+                        </div>
+                        <div class="line">
+                          <div class="dot-move"></div>
+                          <div class="dot zero"></div>
+                          <div class="dot center"></div>
+                          <div class="dot full"></div>
+                        </div>
+                        <div class="slider-ctr">
+                          <div class="slider">
+                            <form class="slider-form slider-one">
+                              <h2>Your Salary</h2>
+                              <div class="label-ctr">
+                                    <label class="radio">
+                                      <input type="radio" value="annual" name="salary">
+                                      <span class="radiobtn">Annual</span>
+                                    </label>
+                                    <label class="radio">
+                                      <input type="radio" value="hourly" name="salary"><span class="radiobtn">Hourly</span>
+                                    </label>
+                                  </div>
+                              <label class="input">
+                                <input type="text" class="name" placeholder="Enter your salary">
+                              </label>
+                              <button class="first next">Next Step</button>
+                            </form>
+                            <form class="slider-form slider-two">
+                              <h2>Are you happy with our service?</h2>
+                              <div class="label-ctr">
+                                <label class="radio">
+                                  <input type="radio" value="happy" name="condition">
+                                  <div class="emot happy">
+                                    <div class="mouth sad"></div>
+                                  </div>
+                                </label>
+                                <label class="radio">
+                                  <input type="radio" value="happy" name="condition">
+                                  <div class="emot happy">
+                                    <div class="mouth smile"></div>
+                                  </div>
+                                </label>
+                              </div>
+                              <button class="second next">Next Step</button>
+                            </form>
+                            <div class="slider-form slider-three">
+                              <h2>Hello, <span class="yourname"></span></h2>
+                              <h3>Thank you for your input!
+                                          </h3>
+                              <a class="reset" href="https://codepen.io/balapa/pen/XbXVRg" target="_blank">Reset</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        </main>
+        <script src="scripts/main.js"></script>
+    </body>

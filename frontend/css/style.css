@@ -34,7 +34,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 3rem;
-    color: #E4E6E5;
+    color: #fff;
     font-weight: 300;
     width: 350px;
     line-height: 2.75rem;
@@ -43,7 +43,7 @@ body {
 
 .hero h2 {
     font-weight: 300;
-    color: #E4E6E5;
+    color: #fff;
     width: 410px;
     margin-bottom: 2rem;
     font-size: 1rem;
