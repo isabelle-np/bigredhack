@@ -16,8 +16,8 @@
     <body>
             <a href="index.html"><img src="assets/logowhite.svg" alt="Reloc8 logo" class="logo"></a>
         <main>
-                <h1>Your Details</h1>
-                <p>Please fill out your details so we can calculate an accurate report for you.</p>
+            <!--- Form made with help by Bhakti Al Akbar -->
+                <p class="intro">Please fill out your details so we can calculate an accurate report for you.</p>
                 <div class="container slider-one-active">
                         <div class="steps">
                           <div class="step step-one">
@@ -30,7 +30,7 @@
                           </div>
                           <div class="step step-three">
                             <div class="liner"></div>
-                            <span>Transportation</span>
+                            <span>Lifestyle</span>
                           </div>
                         </div>
                         <div class="line">
@@ -42,44 +42,106 @@
                         <div class="slider-ctr">
                           <div class="slider">
                             <form class="slider-form slider-one">
-                              <h2>Your Salary</h2>
                               <div class="label-ctr">
-                                    <label class="radio">
+                                    <h2>Your Salary</h2>
+                                    <label class="radio annual">
                                       <input type="radio" value="annual" name="salary">
                                       <span class="radiobtn">Annual</span>
                                     </label>
-                                    <label class="radio">
+                                    <label class="radio hourly">
                                       <input type="radio" value="hourly" name="salary"><span class="radiobtn">Hourly</span>
                                     </label>
                                   </div>
                               <label class="input">
                                 <input type="text" class="name" placeholder="Enter your salary">
                               </label>
-                              <button class="first next">Next Step</button>
+                              <button class="first next" style="margin-top: 2rem;">Next Step</button>
                             </form>
                             <form class="slider-form slider-two">
-                              <h2>Are you happy with our service?</h2>
+                                    
+                              <h2>Housing Preferences</h2>
                               <div class="label-ctr">
-                                <label class="radio">
-                                  <input type="radio" value="happy" name="condition">
-                                  <div class="emot happy">
-                                    <div class="mouth sad"></div>
-                                  </div>
-                                </label>
-                                <label class="radio">
-                                  <input type="radio" value="happy" name="condition">
-                                  <div class="emot happy">
-                                    <div class="mouth smile"></div>
-                                  </div>
-                                </label>
-                              </div>
+                                    <p>What kind of living situation are you looking for?</p>
+                                    <label class="radio shared">
+                                      <input type="radio" value="annual" name="salary">
+                                      <span class="radiobtn">Studio/Shared</span>
+                                    </label>
+                                    <label class="radio one">
+                                      <input type="radio" value="hourly" name="salary"><span class="radiobtn">1 Bedroom</span>
+                                    </label>
+                                </div>
+                                <div class="label-ctr">
+                                        <label class="radio two">
+                                          <input type="radio" value="annual" name="salary">
+                                          <span class="radiobtn">2 Bedroom</span>
+                                        </label>
+                                        <label class="radio three">
+                                          <input type="radio" value="hourly" name="salary"><span class="radiobtn">3 Bedroom</span>
+                                        </label>
+                                      </div>
+                                      <div class="label-ctr">
+                                            <p>What kind of neighbourhood are you looking for?</p>
+                                              <label class="radio economic">
+                                                <input type="radio" value="annual" name="salary">
+                                                <span class="radiobtn">Economic</span>
+                                              </label>
+                                              <label class="radio modest">
+                                                <input type="radio" value="hourly" name="salary"><span class="radiobtn">Modest</span>
+                                              </label>
+                                              <div class="label-ctr"  style="margin-top:3rem">
+                                                    <label class="radio average">
+                                                            <input type="radio" value="annual" name="salary">
+                                                            <span class="radiobtn">Average</span>
+                                                          </label>
+                                              <label class="radio trendy">
+                                                    <input type="radio" value="annual" name="salary">
+                                                    <span class="radiobtn">Trendy</span>
+                                                  </label>
+                                                  </div>
+                                          </div>
                               <button class="second next">Next Step</button>
                             </form>
-                            <div class="slider-form slider-three">
-                              <h2>Hello, <span class="yourname"></span></h2>
-                              <h3>Thank you for your input!
-                                          </h3>
-                              <a class="reset" href="https://codepen.io/balapa/pen/XbXVRg" target="_blank">Reset</a>
+                            <form class="slider-form slider-three">
+                                    <h2>Lifestyle</h2>
+                                      <div class="label-ctr">
+                                              <p>Do you plan on driving?</p>
+                                              <label class="radio yes">
+                                                <input type="radio" value="hourly" name="salary"><span class="radiobtn">Yes
+                                                </span>
+                                              </label>
+                                              <label class="radio no">
+                                                    <input type="radio" value="hourly" name="salary"><span class="radiobtn">No
+                                                    </span>
+                                                  </label>
+                                            </div>
+                                            <div class="label-ctr">
+                                                    <label class="input">
+                                                            <input type="text" class="name mealcount" placeholder="Enter meals eaten out">
+                                                          </label>
+                                                  </div>
+                                                  <div class="label-ctr">
+                                                        <p>How much do you spend on entertainment</p>
+                                                          <label class="radio none">
+                                                            <input type="radio" value="annual" name="salary">
+                                                            <span class="radiobtn">None</span>
+                                                          </label>
+                                                          <label class="radio low">
+                                                            <input type="radio" value="hourly" name="salary"><span class="radiobtn">Low</span>
+                                                          </label>
+                                                          <div class="label-ctr"  style="margin-top:2rem">
+                                                                <label class="radio ave">
+                                                                        <input type="radio" value="annual" name="salary">
+                                                                        <span class="radiobtn">Average</span>
+                                                                      </label>
+                                                          <label class="radio high">
+                                                                <input type="radio" value="annual" name="salary">
+                                                                <span class="radiobtn">High</span>
+                                                              </label>
+                                                              </div>
+                                                      </div>
+                                    <button class="third final" onclick="location.href='one.html';">Calculate</button>
+                                  </form>
+                              
                             </div>
                           </div>
                         </div>
