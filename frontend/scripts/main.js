@@ -1,3 +1,5 @@
+// Form made with help by Bhakti Al Akbar via CodePen available to everyone
+
 var $firstButton = $(".first"),
   $secondButton = $(".second"),
   $thirdButton = $(".third"),
