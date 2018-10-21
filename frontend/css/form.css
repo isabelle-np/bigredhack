@@ -1,17 +1,37 @@
+body {
+    background: linear-gradient(270deg, #3ca55c, #b5ac49);
+}
 main {
     width: 900px;
     margin: auto;
     background: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.03), 0 0 2px rgba(0,0,0,0.24);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.03), 0 10 20px rgba(0,0,0,0.24);
     border-radius: 10px;
     margin-top: 2rem;
 }
 
 h1 { 
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
 }
 
 h2 {
     text-align: center;
 }
+
+form {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 8rem;
+}
+
+h1 + p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.719);
+    letter-spacing: 1.2px;
+}
+
+.
