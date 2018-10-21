@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,800,900');
+
+:root {
+    --main-color: #18AF4D;
+    --light: #E4E6E5;
+  }
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.2px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+    color: rgb(68, 68, 68);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.logo {
+    width: 100px;
+    margin: 0.75rem 3rem;
+    border: none;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 300;
+    width: 350px;
+    line-height: 2.75rem;
+    margin-bottom: 1.75rem;
+}
+
+.hero h2 {
+    font-weight: 300;
+    color: #fff;
+    width: 410px;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+
+header {
+    height: 500px;
+    background: linear-gradient(270deg, #3ca55c, #b5ac49);
+}
+
+.hero {
+    width: 300px;
+    margin-left: 7rem;
+    margin-top: 5rem;
+    margin-right: 0;
+}
+
+.primary-cta {
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #fd8a10;
+    font-family: inherit;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    box-shadow: 0px 17px 10px -10px rgba(53, 53, 53, 0.4);
+}
+
+
+.primary-cta:hover {
+    background-color: #db770b;
+    cursor: pointer;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.info {
+    margin: auto;
+    width: 80%;
+    height: 450px;
+}
+
+.card {
+    float: left;
+    text-align: center;
+    width: 275px;
+    height: 300px;
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03), 0 0 2px rgba(0,0,0,0.24);
+    background-color: #fff;
+}
+
+.card img {
+    margin-bottom: 1rem;
+    height: 125px;
+}
+.card h4 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+
+.solid-nav {
+    height: 65px;
+    /*box-shadow: rgba(31,53,78,0.11) 0 1px;*/
+}
+
+.float {
+    float: left;
+}
+
+.hero-img{
+    margin-right: 2rem;
+}
+
+.cta-section {
+    background-color: #3CA55C;
+    height: 500px;
+}
